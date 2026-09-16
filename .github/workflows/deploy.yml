@@ -49,8 +49,11 @@ jobs:
             echo "Vérification du service..."
             sudo systemctl is-active --quiet scolarite
 
+            echo "Attente du démarrage de l'application..."
+            sleep 5
+
             echo "Health check..."
-            curl --fail http://127.0.0.1:3000/
+            curl --fail http://localhost:3000/
 
             echo "======================================"
             echo "Déploiement terminé"

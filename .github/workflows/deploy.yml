@@ -33,7 +33,7 @@ jobs:
             cd /var/www/scolarite/astro-scolarite-sqlite
 
             export PATH="/home/etudiant/.bun/bin:$PATH"
-            
+
             echo "Mise à jour du code..."
             git pull origin main
             

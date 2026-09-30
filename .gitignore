@@ -4,3 +4,6 @@ dist/
 .env
 data/
 data/*
+
+.env.*
+!.env.example

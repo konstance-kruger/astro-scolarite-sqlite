@@ -9,5 +9,11 @@ export default defineConfig({
     mode: "standalone"
   }),
 
+  security: {
+    allowedDomains: [
+      { hostname: "scolarite.kkruger.fr" }
+    ]
+  },
+
   integrations: [auth()]
 });

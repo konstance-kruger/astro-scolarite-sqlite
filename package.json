@@ -12,7 +12,7 @@
     "db:seed": "node scripts/seed-db.mjs"
   },
   "dependencies": {
-    "@astrojs/node": "^11.1.6",
+    "@astrojs/node": "10.0.5",
     "@auth/core": "^0.41.3",
     "astro": "^7.3.2",
     "auth-astro": "^4.2.0"
